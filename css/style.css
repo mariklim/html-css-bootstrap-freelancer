@@ -16,3 +16,16 @@ header{
     height: 150px;
     background-color: crimson;
 }
+
+.card{
+    height: 250px;
+    border-radius: 10px;
+    background-color: darkorchid;
+}
+
+.card-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: darksalmon;
+}
