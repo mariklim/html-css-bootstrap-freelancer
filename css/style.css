@@ -8,3 +8,11 @@ header{
     height: 50px;
     background-color: crimson;
 }
+.hero{
+    background-color: cyan;
+}
+.hero-img{
+    width: 150px;
+    height: 150px;
+    background-color: crimson;
+}
