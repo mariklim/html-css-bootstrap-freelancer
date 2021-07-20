@@ -17,6 +17,7 @@ header{
     width: 150px;
     height: 150px;
     background-color: crimson;
+    margin: 30px 0  ;
 }
 
 .card{
@@ -35,6 +36,9 @@ header{
 /* Portfolio */
 .title-center{
     text-align: center;
+}
+.portfolio h2{
+    padding: 10px 0;
 }
  /* About */
 .about{
@@ -56,9 +60,39 @@ header{
 .box-contact-form{
     width: 50%;
     margin: auto;
+    padding: 20px 0;
 }
-
+.contact h2{
+    padding: 10px 0;
+}
 .btn-send{
     display: inline-block;
     background-color: sandybrown;
+}
+
+/* Footer */
+.footer-top{
+    background-color: slategray;
+}
+.footer-bottom{
+    background-color:thistle;
+}
+
+.f-top{
+    text-align: center;
+}
+.f-top div{
+    margin: 10px 0;
+}
+.circle{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 50%;
+    line-height: 30px;
+}
+
+.footer-bottom{
+    padding: 40px 0;
 }
