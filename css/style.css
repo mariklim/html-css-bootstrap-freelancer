@@ -1,3 +1,4 @@
+/* Header */
 header{
     height: 50px;
     background-color: blanchedalmond;
@@ -8,6 +9,7 @@ header{
     height: 50px;
     background-color: crimson;
 }
+/* Hero */
 .hero{
     background-color: cyan;
 }
@@ -21,6 +23,7 @@ header{
     height: 250px;
     border-radius: 10px;
     background-color: darkorchid;
+    margin: 10px 0;
 }
 
 .card-img{
@@ -28,4 +31,19 @@ header{
     height: 200px;
     border-radius: 50%;
     background-color: darksalmon;
+}
+ /* About */
+.about{
+    background-color: royalblue;
+}
+.box-about{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+}
+
+.btn-download{
+    background-color:red;
+    display: inline-block;
 }
