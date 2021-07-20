@@ -32,6 +32,10 @@ header{
     border-radius: 50%;
     background-color: darksalmon;
 }
+/* Portfolio */
+.title-center{
+    text-align: center;
+}
  /* About */
 .about{
     background-color: royalblue;
@@ -46,4 +50,15 @@ header{
 .btn-download{
     background-color:red;
     display: inline-block;
+}
+
+/* Contact */
+.box-contact-form{
+    width: 50%;
+    margin: auto;
+}
+
+.btn-send{
+    display: inline-block;
+    background-color: sandybrown;
 }
