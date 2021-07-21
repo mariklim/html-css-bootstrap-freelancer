@@ -4,6 +4,20 @@ body{
     position: relative;
 }
 
+section{
+    padding: 40px;
+}
+.separator .left, .separator .right{
+    width: 10%;
+    height: 3px;
+    background-color: white;
+    
+
+}
+.separator .center{
+    width: 5%;
+}
+
 /* bg-colors */
 .bg-1{
     background-color:#2c3e50;
@@ -53,15 +67,12 @@ header{
 }
 /* Main */
 /* Hero */
-.hero{
+#hero{
     background-color: cyan;
     margin-top: 80px;
 }
-.hero-img{
-    width: 150px;
-    height: 150px;
-    background-color: crimson;
-    margin: 30px 0  ;
+.hero-img img{
+    width: 200px;
 }
 
 .card{
