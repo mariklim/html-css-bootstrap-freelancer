@@ -1,23 +1,10 @@
 /* Header */
 header{
-    height: 50px;
+    height: 80px;
+    line-height: 80px;
     background-color: blanchedalmond;
 }
 
-.menu{
-    width: 50px;
-    height: 50px;
-    background-color: crimson;
-}
-a{
-    text-decoration: none;
-}
-.menu-link ul li{
-    display: inline;
-}
-ul{
-    list-style: none;
-}
 /* Hero */
 .hero{
     background-color: cyan;
@@ -53,31 +40,15 @@ ul{
 .about{
     background-color: royalblue;
 }
-.box-about{
+.my_container_sm{
+    max-width: 1000%;
     width: 70%;
     margin: auto;
-    text-align: center;
-    padding: 15px;
 }
 
-.btn-download{
-    background-color:red;
-    display: inline-block;
-}
 
 /* Contact */
-.box-contact-form{
-    width: 50%;
-    margin: auto;
-    padding: 20px 0;
-}
-.contact h2{
-    padding: 10px 0;
-}
-.btn-send{
-    display: inline-block;
-    background-color: sandybrown;
-}
+
 
 /* Footer */
 .footer-top{
