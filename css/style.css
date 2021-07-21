@@ -135,4 +135,23 @@ header{
     border-color: #1abc9c;
 }
 /* Footer */
+.footer-top{
+    padding:40px;
+}
+.btn-circle{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+}
 
+.social button{
+    margin: 10px;
+}
+
+
+.cta a{
+    color: #1cbb9c;
+    text-decoration: none;
+}
