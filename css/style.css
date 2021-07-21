@@ -9,6 +9,15 @@ header{
     height: 50px;
     background-color: crimson;
 }
+a{
+    text-decoration: none;
+}
+.menu-link ul li{
+    display: inline;
+}
+ul{
+    list-style: none;
+}
 /* Hero */
 .hero{
     background-color: cyan;
@@ -78,21 +87,4 @@ header{
     background-color:thistle;
 }
 
-.f-top{
-    text-align: center;
-}
-.f-top div{
-    margin: 10px 0;
-}
-.circle{
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    border: 1px solid;
-    border-radius: 50%;
-    line-height: 30px;
-}
 
-.footer-bottom{
-    padding: 40px 0;
-}
