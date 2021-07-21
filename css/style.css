@@ -11,13 +11,22 @@ section{
     margin: 10px 0;
 }
 .separator .left, .separator .right{
-    width: 10%;
+    width: 100px;
     height: 3px;
     background-color: white;
 }
 .separator .center{
-    width: 5%;
+    margin: 0 15px;
 }
+.separator.dark i{
+    color: black;
+}
+.separator .left.dark, .separator .right.dark{
+    width: 100px;
+    height: 3px;
+    background-color: black;
+}
+
 
 /* bg-colors */
 .bg-1{
