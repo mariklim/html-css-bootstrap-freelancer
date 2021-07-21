@@ -19,12 +19,12 @@ section{
     margin: 0 15px;
 }
 .separator.dark i{
-    color: black;
+    color: #2c3e50;
 }
 .separator .left.dark, .separator .right.dark{
     width: 100px;
     height: 3px;
-    background-color: black;
+    background-color:  #2c3e50;
 }
 
 
@@ -116,10 +116,11 @@ header{
     color: white;
     border-color: white;
 }
-
-
 /* Contact */
-
+#contact h2{
+    color: #333333;
+    margin-bottom: 20px;
+}
 
 /* Footer */
 

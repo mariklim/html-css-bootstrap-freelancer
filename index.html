@@ -145,7 +145,7 @@
                                 <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
 
                             </div>
-                            <div class="col-12 col-md-6">
+                            <div class="col-12 col-md-6 mb-3">
                                 <p>
                                     You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!
                                 </p>
@@ -164,17 +164,44 @@
          <!-- /About -->
            
          <!-- Contact -->
-        <section>
+        <section id="contact">
         <div class="my_container_sm">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 text-center">
-                        <h2 >Contact me</h2>
+                        <h2 class="text-uppercase">Contact me</h2>
+                    </div>
+                    <div class="separator dark d-flex justify-content-center align-items-center">
+                        <div class="left dark"></div>
+                        <div class="center">
+                            <i class=" fs-3 fas fa-star"></i>
+                        </div>
+                        <div class="right dark"></div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quo sed obcaecati modi tempore reiciendis nobis cupiditate, cumque, iusto repudiandae, porro architecto eum error natus? 
-                            Magnam reprehenderit dolorem architecto nulla.
+                    <div class="col-12">
+                        <form>
+                            <div class="form-group">
+                              <label for="name">Name</label>
+                              <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Adress">
+                              </div>
+                              <div class="form-group">
+                                <label for="name">Number</label>
+                                <input type="number" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Number">
+                              </div>
+                              <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Example textarea</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                              </div>
+                            
+                            
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                          </form>
                     </div>    
                 </div>
             </div>
