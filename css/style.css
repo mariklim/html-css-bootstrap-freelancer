@@ -78,7 +78,6 @@ header{
 /* Main */
 /* Hero */
 #hero{
-    background-color: cyan;
     margin-top: 80px;
 }
 .hero-img{
@@ -107,13 +106,15 @@ header{
     margin-bottom: 20px;
 }
  /* About */
-.about{
-    background-color: royalblue;
-}
 .my_container_sm{
     max-width: 1000%;
     width: 70%;
     margin: auto;
+}
+
+.btn-outline-primary{
+    color: white;
+    border-color: white;
 }
 
 
