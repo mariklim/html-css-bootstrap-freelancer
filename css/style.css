@@ -80,9 +80,9 @@ header{
 }
 
 .card{
-    height: 250px;
+    width: 100%;
     border-radius: 10px;
-    background-color: darkorchid;
+    overflow: hidden;
     margin: 10px 0;
 }
 
@@ -93,11 +93,9 @@ header{
     background-color: darksalmon;
 }
 /* Portfolio */
-.title-center{
-    text-align: center;
-}
-.portfolio h2{
-    padding: 10px 0;
+#portfolio h2{
+    color: #333333;
+    margin-bottom: 20px;
 }
  /* About */
 .about{
