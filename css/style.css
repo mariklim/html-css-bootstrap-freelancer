@@ -7,12 +7,13 @@ body{
 section{
     padding: 40px;
 }
+.separator{
+    margin: 10px 0;
+}
 .separator .left, .separator .right{
     width: 10%;
     height: 3px;
     background-color: white;
-    
-
 }
 .separator .center{
     width: 5%;
@@ -71,7 +72,10 @@ header{
     background-color: cyan;
     margin-top: 80px;
 }
+.hero-img{
+}
 .hero-img img{
+    margin: 20px 0;
     width: 200px;
 }
 
