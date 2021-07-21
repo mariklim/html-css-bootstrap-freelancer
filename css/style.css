@@ -1,6 +1,7 @@
 /* Common */
 body{
     color: white;
+    position: relative;
 }
 
 /* bg-colors */
@@ -17,9 +18,18 @@ body{
 
 /* Header */
 header{
+    position: fixed;
+    z-index: 1;
+    overflow: hidden;
+    width: 100%;
+    top:0;
+    right: 0;
     height: 80px;
     line-height: 80px;
     background-color:#2c3e50;
+}
+.header h2{
+    margin-bottom: 0px;
 }
 
 .menu{
@@ -36,13 +46,16 @@ header{
 
 .menu-list a{
     color: white;
+    font-weight: 500;
     text-decoration: none;
+    padding: 0 10px;
 
 }
-
+/* Main */
 /* Hero */
 .hero{
     background-color: cyan;
+    margin-top: 80px;
 }
 .hero-img{
     width: 150px;
