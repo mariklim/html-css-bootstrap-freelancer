@@ -105,6 +105,7 @@ header{
     border-radius: 10px;
     overflow: hidden;
     margin: 10px 0;
+    position: relative;
 }
 
 .card-img{
@@ -117,6 +118,24 @@ header{
 #portfolio h2{
     color: #333333;
     margin-bottom: 20px;
+}
+
+.hover{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: rgba(52, 195, 176, 0.589);
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    visibility: hidden;
+}
+
+.card:hover .hover{
+    visibility: visible;
 }
  /* About */
 .my_container_sm{
